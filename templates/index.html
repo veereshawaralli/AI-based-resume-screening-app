@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Category Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <h2>Resume Screening AI base System</h2>
+            <p>This system supports TXT and PDF files, and it will work on the following....</p>
+            <ul>
+                <li>Resume Categorization</li>
+                <li>Resume Job Recommendation</li>
+                <li>Resume Parsing (Information Extraction)</li>
+            </ul>
+
+            <form method="POST" enctype="multipart/form-data">
+                <h3>Upload Your Resume</h3>
+                <input type="file" name="resume" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

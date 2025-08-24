@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Screening Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <h2>Resume Screening AI Base System</h2>
+            <h3 class="success">Upload Successful</h3>
+
+            <div class="section">
+                <p><strong>Category:</strong> {{ predicted_category }}</p>
+                <p><strong>Recommended Job:</strong> {{ recommended_job }}</p>
+            </div>
+
+            <hr>
+
+            <div class="section">
+                <h3>Extracted Information</h3>
+                <p><strong>Name:</strong> {{ name }}</p>
+                <p><strong>Phone No:</strong> {{ phone }}</p>
+                <p><strong>Email:</strong> {{ email }}</p>
+                <p><strong>Education:</strong> {{ education }}</p>
+                <p><strong>Matched Skills:</strong> {{ matched | join(', ') }}</p>
+                <p><strong>Match Score:</strong> {{ score }}%</p>
+            </div>
+
+            <a href="/"><button>← Upload Another</button></a>
+        </div>
+    </div>
+</body>
+</html>
