@@ -1,5 +1,5 @@
 # AI-based-resume-screening-app
-An NLP-powered Resume Screening System that automates the initial phase of recruitment by classifying resumes into job categories and extracting candidate information such as name, contact details, education, and key skills.
+An NLP-powered Resume Screening System that automates the initial phase of recruitment by classifying resumes into job categories and extracting candidate information such as name, contact details, education, and key skills. 
 
 ##Features:
         Upload resumes in PDF or TXT format
