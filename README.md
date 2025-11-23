@@ -92,8 +92,7 @@ http://127.0.0.1:5000
 # 🧠 How It Works (Flow)
 
 ### **1. Input**
-- Paste resume text  
-- Paste job description  
+- Upload the file in pdf/txt 
 
 ### **2. Processing**
 - Text cleaning & preprocessing  
