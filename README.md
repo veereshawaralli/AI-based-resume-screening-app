@@ -133,8 +133,7 @@ scikit-learn
 ---
 
 # 🧩 Future Enhancements
-
-- ✔ Resume PDF upload using PyMuPDF  
+ 
 - ✔ JD file upload  
 - ✔ Export bullet points as PDF  
 - ✔ Integrate OpenAI or LLaMA for smart rewriting  
