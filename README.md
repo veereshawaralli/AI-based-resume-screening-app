@@ -69,7 +69,6 @@ Single‑file HTML interface embedded into Flask.
 ### 1️⃣ Clone the Repository
 ```
 git clone https://github.com/veereshawaralli/AI-based-resume-screening-app.git
-cd ATS-Resume-Optimizer
 ```
 
 ### 2️⃣ Install Dependencies
