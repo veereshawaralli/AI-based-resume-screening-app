@@ -68,7 +68,7 @@ Single‑file HTML interface embedded into Flask.
 
 ### 1️⃣ Clone the Repository
 ```
-git clone <your-repository-url>
+git clone https://github.com/veereshawaralli/AI-based-resume-screening-app.git
 cd ATS-Resume-Optimizer
 ```
 
@@ -124,7 +124,7 @@ Contains:
 - Score calculator  
 
 ### **README.md**
-Documentation (this file)
+Documentation
 
 ### **requirements.txt**
 ```
