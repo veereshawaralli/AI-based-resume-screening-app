@@ -105,7 +105,6 @@ http://127.0.0.1:5000
 - ATS match percentage  
 - Missing keywords  
 - Found keywords  
-- 4 AI‑generated resume bullet points  
 
 ---
 
